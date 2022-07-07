@@ -106,10 +106,9 @@ input#criar{
     margin: auto;
     background-color: white;
     padding-top: 30px;
-    padding-bottom: 100px;
 }
 
-footer{
+.ling{
     padding: 0 10px;
     display: flex;
     max-width: 1100px;
@@ -118,16 +117,25 @@ footer{
     border-bottom: 1px solid lightgray;
 }
 
-footer p{
+.ling p{
     margin-left: 10px;
     font-size: 15px;
 }
 
-footer a{
+.ling a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.363);
 }
 
-footer a:hover{
+.ling a:hover{
     text-decoration: underline;
+}
+
+footer > p{
+    padding: 5px;
+    margin: auto;
+    margin-top: 55px;
+    background-color: #1877F2;
+    color: white;
+    text-align: center;
 }
