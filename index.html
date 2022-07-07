@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fcaebook - Entre ou cadastre-se</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="principal">
-            <div id="facebook">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="principal">
+        <div class="cont-login">
+            <div class="cont-1">
                 <h1>facebook</h1>
-                <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
-                <div id="criar">
-                    <input type="text" id="email" placeholder="Email ou telefone" autocomplete="off">
-                    <input type="text" id="senha" placeholder="Senha"> <br>
-                    <input type="button" id="entrar" value="Entrar">
-                    <p><a href="#">Esqueceu a senha?</a></p>
-                    <input type="button" id="criar" value="Criar nova conta">
+                <p>O facebook ajuda você a se conectar e <br> compartilhar com as pessoas que <br> fazem parte da sua vida.</p>
+            </div>
+
+            <div class="cont-login">
+                <div>
+                    <div class="cont-2">
+                        <form>
+                            <input type="email" id="email" placeholder="Email ou telefone"> <br>
+                            <input type="password" id="senha" placeholder="Senha"> <br>
+                            <input type="button" id="entrar" value="Entrar">
+                            <p class="link"><a href="#">Esqueuceu a senha?</a></p> <hr>
+                            <input type="button" id="criar" value="Criar nova conta">
+                        </form>
+                    </div>
+                    <p class="texto-criar"><strong>Criar uma Página</strong> para uma celebridade, uma marca <br> ou uma empresa.</p>
                 </div>
-                <p id="span"><strong>Criar uma Página</strong> para uma celebridade banda ou empresa.</p>
             </div>
         </div>
-        <footer><p id="footer">Site Criado por Hugostoso</p></footer>
-    </body>
-    </html>
+    </section>
+
+    <div class="foot">
+        <footer>
+                <p>
+                    <a href="#">Português (Brasil)
+                    </a>
+                </p>
+                <p>
+                    <a href="#">English (US)
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Español
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Français (France)
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Italiano
+                    </a>
+                </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,118 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    background-color: rgb(243, 242, 242);
-    margin: auto;
+    background-color: #f0f2f5;
 }
 
-div#principal{
-    max-width: 1400px;
-    margin: auto;
+.principal{
+    max-width: 1100px;
+    margin: 200px auto;
 }
 
-div#facebook{
-    max-width: 1300px;
-    margin: auto;
+.cont-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-div#facebook h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(36, 104, 231);
-    font-size: 40pt;
-    margin-top: 200px;
-    margin-left: 150px;
+.cont-1 h1{
+    font-variant: initial;
+    color: #1877F2;
+    font-size: 3.5em;
 }
 
-div#facebook h2{
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    margin-left: 150px;
-    margin-top: -20px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
+.cont-1 p{
+    font-size: 1.7em;
 }
 
-div#criar{
-    float: right;
-    margin-top: -120px;
-    margin-right: 150px;
-    display: block;
+.cont-2{
+    width: 350px;
     text-align: center;
     background-color: white;
-    width: 340px;
-    height: 309px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.377);
-    border-radius: 1%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.247);
 }
 
-input#email{
-    width: 302px;
-    height: 49px;
-    font-size: 17px;
-    border-radius: 6px;
-    border: solid 1px #dddfe2;
-    margin-top: 17px;
+input{
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
-input#senha{
-    width: 302px;
-    height: 49px;
-    font-size: 17px;
-    border-radius: 6px;
-    border: solid 1px #dddfe2;
-    margin-top: 12px;
+::placeholder{
+    color: lightgray;
+    font-size: medium;
+}
+
+input#email:hover{
+    border: 1px solid #1877F2;
+}
+
+input#senha:hover{
+    border: 1px solid #1877F2;
 }
 
 input#entrar{
-    width: 302px;
-    height: 49px;
-    font-size: 20px;
-    border-radius: 6px;
-    border: solid 0.5px rgba(0, 0, 0, 0.438);
-    background-color: #1877f2;
-    border: none;
+    width: 330px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 12px;
+    background-color: #1877F2;
+    font-size: 17px;
+    font-weight: bold;
+
 }
 
-p{
-    color: #1877f2;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: solid 1px #dddfe2;
-}
-
-a{
+.cont-2 a{
+    color: #1877F2;
     text-decoration: none;
 }
 
-a:hover{
+.link{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.link:hover{
     text-decoration: underline;
 }
 
-
 input#criar{
-    background-color: rgb(8, 197, 8);
-    border: none;
-    border-radius: 5px;
+    width: 170px;
     color: white;
-    padding: 15px;
-    font-size: 16px;
+    background-color: #36a420;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
-p#span{
-    color: black;
-    float: right;
-    margin-top: 200px;
-    margin-right: -365px;
-    font-size: 14px;
+.foot{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
-p#footer{
-    color: white;
-    background-color: #1877f2;
-    text-align: center;
-    padding: 10px;
-    margin-top: 640px;
+footer{
+    padding: 0 10px;
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
 }
 
+footer p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.363);
+}
