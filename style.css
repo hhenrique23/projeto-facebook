@@ -76,7 +76,10 @@ input#entrar{
     background-color: #1877F2;
     font-size: 17px;
     font-weight: bold;
+}
 
+input#entrar:hover{
+    cursor: pointer;
 }
 
 .cont-2 a{
@@ -100,6 +103,10 @@ input#criar{
     font-size: 17px;
     font-weight: bold;
     margin-top: 30px;
+}
+
+input#criar:hover{
+    cursor: pointer;
 }
 
 .foot{
